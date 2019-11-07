@@ -5,6 +5,7 @@ if(!$conn){
 }else{
 	$name = $_POST['name'];
 
+	//use prepare statement
 	$insert_sql = "insert into mm(name) values (?)";
 	$stmt=$conn->prepare($insert_sql);
 	$stmt->bind_param("s",$name);

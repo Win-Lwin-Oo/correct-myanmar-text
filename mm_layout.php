@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Myanmar Unicode Test</title>
+<!--for correct mm text-->
 <meta charset="utf8">
 </head>
 <body>
